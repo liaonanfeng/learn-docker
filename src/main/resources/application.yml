@@ -1,0 +1,13 @@
+server:
+    port: 8010
+    context-path: /learn
+
+logging:
+    level:
+        INFO
+
+spring:
+    application:
+      name:
+        @project.artifactId@
+
