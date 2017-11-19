@@ -11,6 +11,13 @@ run cd /tmp/build && mvn clean package \
 # 清理编译痕迹
 && cd / && rm -rf /tmp/build
 
+run echo "当前路径"
+run pwd
+
+run echo "当前路径-列表"
+run ls
+
+
 volume /tmp
 
 expose 8010
