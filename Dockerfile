@@ -21,4 +21,4 @@ run ls
 volume /tmp
 
 expose 8010
-entrypoint ["java","-jar",/learn-docker.jar""]
+entrypoint ["java","-jar","/learn-docker.jar"]
